@@ -105,7 +105,6 @@ def pick_the_best_value(hand_value)
   else
     best_value = hand_value.min
   end
-  return best_value
 end
 
 system 'clear'
@@ -212,15 +211,3 @@ while continue == 'y'
   puts "Would you like to continue? (Y/N)"
   continue = gets.chomp.downcase
 end
-
-
-
-
-
-
-
-
-
-
-
-
