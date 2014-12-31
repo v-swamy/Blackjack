@@ -160,11 +160,7 @@ while continue == 'y'
     display_hands_computer_turn(player_hand, computer_hand)
     sleep 1
     puts "The computer got a blackjack! You lose."
-  end
-
-  if !hand_is_blackjack?(player_hand, player_hand_value) && 
-     !hand_is_blackjack?(computer_hand, computer_hand_value)
-
+  else
     while (player_hand_value[0] <= 21 || player_hand_value[1] <= 21) && 
           player_action == 'h'
       puts "(H)it or (S)tay?"
