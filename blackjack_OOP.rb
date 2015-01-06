@@ -281,17 +281,3 @@ class Blackjack
 end
 
 Blackjack.new.play
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
